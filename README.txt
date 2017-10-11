@@ -1,0 +1,5 @@
+	This folder contain all the necessary files to launch the logo program. 
+	To make the executables you need to write "make" that will execute the makefile. You can also do "make cleanAll" to clean the folder and remove the executables. There are two executables that are created with the "make". "./exec" is the basic test of the structure of the program. "./logo" is the main program. 
+	To use logo you can add a file to read with the following command : "./logo <MyFileWriteInLogo.txt" or directly use the standard input. There are four txt files you can test : flower.txt, crazyFlower.txt, testHexa.txt and TestLogo.txt.
+	If you don't use macOS you will need to open by hand the svg file (you will also need to comment this line in the main of the bisLogo.y file)
+	The flex file and the bison file will inform you of the possiblilities of the language logo. The main fundamentals are : an intruction with a color if you want for a forward or a hexagone (if not it will be a black line) followed by the value of these intruction (precisions for the value are in the IntermediateLanguage.c file). The instructions that are concerned by a repeat are delimited by [ and ].
